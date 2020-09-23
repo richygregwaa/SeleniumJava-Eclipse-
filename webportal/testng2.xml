@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- This executes LoginTest.java and passes a value to the 'browser' parameter -->
+
+<suite name="Reading browser details from testng2 xml">
+  <test name="Reading browser details from testng2 xml">
+  <parameter name = "browser" value = "firefox"></parameter>
+    <classes>
+      <class name="ui.LoginTest2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

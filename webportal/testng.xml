@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- You can run the classes below by right-clicking here and select Run As TestNG Suite -->
+
+<suite name="UI Test Suite">
+  <test name="Functional Testing">
+    <classes>
+      <class name="ui.LoginTest"/>
+      <class name="ui.GroupDemoTest"/>
+      <class name="ui.BeforeSuiteAfterSuiteExtendedIn"/>
+      <class name="ui.SkipDemoTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

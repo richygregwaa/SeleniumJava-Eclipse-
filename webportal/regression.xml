@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- I created this xml by highlighting the 2 classes in the Package Explorer 
+	on the left -->
+<!-- (under UI) and right-clicking and selecting TestNG Convert to TestNG -->
+<!-- Then renamed it from testng.xml to regression.xml before saving -->
+
+<suite name="Regression Suite">
+	<test name="Regression">
+
+		<groups>
+			<run>
+				<include name="regression" />
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="ui.LoginTest" />
+			<class name="ui.GroupDemoTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
